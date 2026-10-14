@@ -24,10 +24,10 @@ Output: The sound Baby Shark, with three verses:
 ##############
 REPEAT = 3
 def verse(name):
-        print(name, "Shark,")
         for _ in range(REPEAT):    
+            print(name, "Shark,")
             print("doo-doo-doo-do-do-do-do")
-        print(name, "Shark,")
+        print(name, "Shark!")
 
 
 def main():
